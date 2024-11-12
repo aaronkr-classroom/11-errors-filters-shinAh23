@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+
+	<filter>
+		<filter-name>Filter01</filter-name>
+		<filter-class>ch12.com.filter.AuthenFilter</filter-class>
+	</filter>
+	
+	<
+	
+	<error-page>
+		<exception-type>java.lang.Exception</exception-type>
+		<location>/1103_exception_error.jsp</location>
+	</error-page>
+
+	<eroor-page>
+	
+		<error-code>500</error-code>
+		<location>/1103_exception_error.jsp</location>
+	</eroor-page>
+</web-app>
